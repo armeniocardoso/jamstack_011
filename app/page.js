@@ -9,7 +9,7 @@ export default async function Home() {
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <ul>
           {estados.map((estado) => (
-            <li className="bg-green-300 m-5" key={estado.id}>{estado.nome}</li>
+            <li className="bg-green-300 m-5" key={estado.id}>{estado.nome} - {estado.data}</li>
           ))}
         </ul>
       </div>
